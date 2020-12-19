@@ -7,8 +7,8 @@ class MainTest
 {
 
     @Test
-    def onePlusOne() {
-        assertEquals(1 + 1, 3);
+    void onePlusOne() {
+        assertEquals(1 + 1, 2);
     }
 
 }

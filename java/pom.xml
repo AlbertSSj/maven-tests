@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+    Test project for Groovy stuff.
+
+    Important command line tricks:
+    - This will run the Main class with the class path setup
+      mvn exec:java -Dexec.mainClass="Main"
+    - This will start a Groovy Shell with the class path setup
+      mvn gplus:shell
+    - This will start a Groovy Console with the class path setup
+      mvn gplus:console
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>alin.tests</groupId>
+        <artifactId>maven-tests-top</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>maven-tests-java</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+    </build>
+
+</project>
