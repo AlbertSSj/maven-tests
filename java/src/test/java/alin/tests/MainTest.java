@@ -3,11 +3,11 @@ package alin.tests;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MainTest
+public class MainTest
 {
 
     @Test
-    void onePlusOne() {
+    public void onePlusOne() {
         assertEquals(1 + 1, 2);
     }
 

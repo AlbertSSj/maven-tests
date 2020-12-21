@@ -3,12 +3,12 @@ package alin.tests;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MainTest extends GroovyTestCase
+public class MainTest
 {
 
     @Test
-    def onePlusOne() {
-        assertEquals(1 + 1, 3);
+    public void onePlusOne() {
+        assertEquals(1 + 1, 2);
     }
 
 }
